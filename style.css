@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+}
+.clm-container{
+    width: 250px;
+    height: 100vh;
+    
+    background-color: rgb(255, 255, 255);
+    padding: 12px 30px;
+}
+.board-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.board-1 h1{
+    font-size: 20px;
+}
+.board-1 p{
+    color: rgb(127, 127, 127);
+    padding-top: 10px;
+}
+.board-2 ul{
+    display: flex;
+   flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    
+}
+.board-2 ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.board-2{
+    margin-top: 15px;
+}
+.board-2 ul li{
+    display: flex;
+    
+}
+.board-2 ul li p{
+    padding-left: 20px;
+}
+.board-2 h4{
+    padding: 15px 0;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(85, 85, 85);
+    font-weight: 300;
+}
+.board-2 ul li:hover{
+    background-color: rgb(4, 93, 11);
+    color:white;
+   padding: 5px;
+    border-radius: 50px;
+}
+
+
+
+.container-box{
+    background-color: rgb(252, 252, 252);
+    width: 1280px;
+    height: 100vh;
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    background-color: #0aa26d;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+nav ul li:hover{
+    background-color:rgb(167, 167, 167);
+    color:green;
+    border-radius: 50px;
+    
+}
+.dp-container{
+    height: 30px;
+    width: 30px;
+
+}
+.dp-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.left{
+    margin-left: 5%;
+}
+.left ul{
+    display: flex;
+    gap:40px;
+    list-style: none;
+}
+.left ul li{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    transition: 1.25s ease-in-out;
+}
+
+
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search{
+    position: absolute;
+    left: 10px;
+}
+.mid input{
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+.Box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  
+}
+.box1{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+.bg-box{
+    height: 250px;
+    width: 700px;
+    background-image: url(https://wallpapers.com/images/featured/yo-yo-honey-singh-6ad2qg53x8s1eh6k.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+    
+
+}
+.bg-box .content{
+    padding-top: 23%;
+    padding-left: 25px;
+
+}
+.content-box h3{
+    padding: 10px 0;
+    margin-left: 20px;
+    
+}
+.content p{
+    color: black;
+}
+
+.ply{
+    display: flex;
+    gap: 5px;
+    color: black;
+
+}
+.ply i{
+    color: green;
+}
+.btn-container{
+ display: flex;
+ margin-top: 30px;
+ align-items: center;
+ gap: 10px;
+}
+.btn-container button{
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.heart i{
+    padding: 5px;
+    color:red;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+.weekly_top_track{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lft h2{
+    font-size: 20px;
+
+}
+.rgt i{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.weekly_top_track .rgt i:hover{
+    color: green;
+    background-color: white;
+}
+
+.music-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+   
+}
+.music-box{
+    height: 100px;
+    width: 100px;
+    transition: 1.25s ease-in-out;
+}
+.music-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.music-box h4{
+    font-size: 13px;
+    text-align: center;
+}
+.music-box p{
+    font-size: 13px;
+    color: rgb(66, 66, 66);
+    text-align: center;
+}
+.playlist{
+   
+    border: 1px soid black;
+   
+    
+}
+.circul{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(7, 118, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1.25s ease-in-out;
+}
+.circul i{
+    font-size: 40px;
+    color: white;
+}
+.playlist h1{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.circul:hover{
+    box-shadow: 3px 4px 3px 4px rgba(1,1, 1, 0.25);
+    border-radius: 50%;
+}
+.music-container .music-box:hover{
+    box-shadow: 3px 4px 3px 4px rgba(1,1, 1, 0.25);
+    border-radius: 10px;
+}
+
+
+.recently-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Recently-Played{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Recently-Played .l h2{
+    font-size: 20px;
+    
+}
+.Recently-Played .r {
+    margin-right: 10px;
+}
+.Recently-Played .r p:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.Recently-Played .l h2:hover{
+    border: none;
+    color: rgb(75, 74, 74);
+    box-shadow: 3px 4px 3px 4px rgba(1,1, 1, 0.25);
+
+}
+.recent-left{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://m.media-amazon.com/images/I/71CSzlUC0aL._UF1000,1000_QL80_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.recent-right i{
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.recently-box .song-name{
+    margin-right: 20%;
+}
+.recently-box .song-name h3{
+    font-size: 15px;
+}
+.recently-box .song-name p{
+    font-size: 14px;
+    color: rgb(62, 62, 62);
+}
+.recent-right i:nth-child(2){
+    color: crimson;
+}
+
+/* box-2 */
+
+.box2{
+    height:100%;
+    width: 50%;
+    background-color: rgb(252, 251, 250);
+    padding: 10px 20px;
+}
+.Top-Artist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.famous-artist{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.famous-1{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+.famous-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid white;
+
+}
+.famous-1 p{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.famous-1:hover{
+    text-decoration: underline;
+    box-shadow: 3px 4px 3px 4px rgba(1,1, 1, 0.25);
+    border-radius: 50%;
+
+}
+
+.Queue-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13%;
+}
+.Queue p{
+    color: rgb(86, 84, 84);
+
+}
+.Queue p:hover{
+    text-decoration: underline;
+    font-style: 15px;
+}
+
+.history-song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(222, 215, 215);
+    border-bottom: 1px solid rgb(208, 202, 202);
+    padding-top: 10px;
+    text-align: center;
+}
+.ply-midd{
+    margin-right: 15%;
+    
+}
+.ply-midd h3{
+    font-size: 15px;
+}
+.ply-midd p{
+    color: rgb(72, 72, 72);
+   font-size: 13px;
+}
+.ply-lft i{
+    font-size: 30px;
+    color: rgb(36, 36, 241);
+}
+.history-song:hover{
+    background-color: rgb(246, 224, 224);
+    padding: 10px 15px;
+}
